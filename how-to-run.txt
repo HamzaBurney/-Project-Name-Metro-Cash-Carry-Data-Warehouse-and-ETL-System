@@ -1,0 +1,10 @@
+Project
+1.	Run Create-DW.sql to create METRO_DATAWAREHOUSE and MASTER_DATA
+2.	Create a new Java project
+3.	Add a new Java package named main
+4.	Connect the Mesh_Join.java file to the main package
+5.	Change dbUser, dbPassword to your own database username and password
+6.	Change the file paths of customerCSV, productsCSV, transactionsCSV
+7.	Connect the mysql-java connector in Build path
+8.	Run the Mesh_Join.java file, this file will populate METRO_DATAWAREHOUSE
+9.	Run the Queries-DW.sql to run the OLAP queries required  in the project
